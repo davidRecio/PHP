@@ -1,0 +1,3 @@
+en sublime text para cambiar el idioma te vas a view y en sintaxis
+para acceder al php se hace en la carpeta htdocs de xamp
+para verlo pon en el url del buscador localHost
