@@ -1,3 +1,8 @@
 en sublime text para cambiar el idioma te vas a view y en sintaxis
 para acceder al php se hace en la carpeta htdocs de xamp
-para verlo pon en el url del buscador localHost
+para verlo pon en el url del buscador localhost/phpmyadmin
+
+04
+para ir a phpmyadmin necesario en este punto poner localhost/phpmyadmin/
+creamos una base de datos y le damos una estructura equivalente a la de la app de php(crearBBDD)
+Luego para definir la estructura(creandoEstructuraColumnas y creandoEstructuraColumnas2)
