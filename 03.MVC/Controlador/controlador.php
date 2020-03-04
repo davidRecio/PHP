@@ -14,7 +14,19 @@ class Mvcontroller {
 
 	public function enlacesPaginasController(){
 
-		$enlacesCT = $_GET["action"];//recoge el valor de la variable action de la url
+		if(isset( $_GET["action"])){// igual que el isEmpty de java pero con var en vez de colecciones
+
+
+			$enlacesCT = $_GET["action"];//recoge el valor de la variable action de la url
+
+		}else{
+
+
+			$enlacesCT="index";
+
+		}
+
+		
 
 
 		$respuesta = EnlacesPaginas::enlacesPaginasModelo($enlacesCT);//llama a la clase y hereda su funcionalidad
