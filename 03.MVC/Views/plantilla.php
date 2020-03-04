@@ -54,7 +54,12 @@
 	?>
 <section>
 
-		
+<?php
+
+	$mvc = new Mvcontroller();
+	$mvc -> enlacesPaginasController();
+?>
+
 
 </section>
 
