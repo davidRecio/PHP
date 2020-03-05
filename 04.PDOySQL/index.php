@@ -6,9 +6,10 @@ require_once "Controlador/controlador.php";//es el import de java
 require_once "Controlador/formularios.php";
 require_once "Modelo/modelo.php";
 require_once "Modelo/conexion.php";
+require_once "Modelo/formularioModelo.php";
 
-$conexion =Conexion::conectar();
-echo '<pre>'; print_r($conexion); echo "</pre>";
+//$conexion =Conexion::conectar();
+//echo '<pre>'; print_r($conexion); echo "</pre>";
 
 $mvc= new Mvcontroller();
 $mvc -> pagina();
